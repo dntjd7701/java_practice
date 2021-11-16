@@ -7,7 +7,8 @@ spring:
   datasource:
     password:
     username:
-    url: jdbc:postresql://localhost:5432//registration
+    url: jdbc:postresql://localhost:5432/registraion
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: create-drop
